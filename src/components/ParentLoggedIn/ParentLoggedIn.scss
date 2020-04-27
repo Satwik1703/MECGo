@@ -1,0 +1,83 @@
+.ParentLoggedIn{
+body {
+    background-color: aliceblue;
+    font-family: sans-serif;
+}
+
+div {
+	width: 550px;
+	height: 600px;
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+    margin: auto;
+    border: none;
+    border-radius: 5%;
+    box-shadow: 0 0 3px rgba(0,0,0,0.5);
+    background-color: white;
+    text-align: center;
+}
+
+#reason {
+    height: 50px;
+    width: 450px;
+    font-size: larger;
+    padding-left: 5px;
+    border: none;
+    background-color:#e7e7e7;
+    text-align: center;
+    margin-top: 5px;
+    border-radius: 25px;
+}
+
+input {
+    margin-top: 20px;
+}
+
+#f_d , #t_d {
+    width: 250px;
+}
+
+#t_d{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+
+img{
+    height: 120px;
+    width: 120px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+button {
+    border: none;
+    width: 250px;
+    height: 50px;
+    background: #f12711;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f5af19, #f12711);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f55719, #f12711); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: none;
+    color:  white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 150;
+    margin: 4px 2px;
+    transition: 0.3s;
+    margin-top: 10px;
+    border-radius: 50px;
+  }
+
+  button:hover {
+    background: #56ab2f;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #15b100, #56ab2f);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #15b100, #56ab2f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-align: center;
+    color: white;
+    font-size: 20px;
+  }
+}
