@@ -6,8 +6,8 @@ function Login(props){
     <div className='Login'>
       <img src={require("./assets/logo.png")} alt="" id = "logoimg"/>
 
-      <div className="main">
-        <p className="signin" align="center">Sign In</p>
+      <div className="main" id='main1' >
+        <p className="signin" id="signin1" align="center">Sign In</p>
         <form className="form1" />
         <input type='text' id='username' align="center" placeholder="Username" onChange={props.onChangeValue}/><br/>
         <input type='password' id='password' align="center" placeholder="Password" onChange={props.onChangeValue}/><br/>
