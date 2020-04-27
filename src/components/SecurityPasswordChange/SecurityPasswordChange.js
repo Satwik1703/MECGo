@@ -35,7 +35,7 @@ class SecurityPasswordChange extends React.Component{
 
   render(){
     return(
-      <div>
+      <div className='SecurityPasswordChange'>
         <label>Password: </label>
         <input type='password' id='password' onChange={this.onChangeValue} /><br/>
         <label>New Password: </label>
