@@ -1,9 +1,10 @@
 import React from 'react';
 import ShowRequests from '../ShowRequests/ShowRequests';
+import './WardenLoggedIn.scss';
 
 function WardenLoggedIn(props){
   return(
-    <div>
+    <div className='WardenLoggedIn'>
       {
         props.data.map(info => (<ShowRequests info={info} />))
       }

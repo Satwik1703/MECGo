@@ -1,4 +1,5 @@
 import React from 'react';
+import './ShowRequests.scss';
 
 class ShowRequests extends React.Component{
   constructor(props){
@@ -33,7 +34,7 @@ class ShowRequests extends React.Component{
 
   render(){
     return(
-      <div>
+      <div className='ShowRequests'>
         <h1>{this.props.info.name}</h1>
         <h2>{this.props.info.username}</h2>
         <h4>{this.props.info.reason}</h4>

@@ -1,0 +1,67 @@
+.SecurityShow{
+* {
+    box-sizing: border-box;
+  }
+
+div {
+	width: 800px;
+	height: 200px;
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+    right: 0;
+    padding: 5px;
+    margin: auto;
+    border: none;
+    box-shadow: 0 0 3px rgba(0,0,0,0.5);
+    background-color: white;
+    text-align: left;
+}
+
+.column {
+    margin-left:0px;
+    float: left;
+    width: 50%;
+    padding: 10px;
+    box-shadow: 0 0 3px rgba(0,0,0,0);
+  }
+
+  .columnl {
+    margin-right:0px ;
+    width: 50%;
+    padding: 10px;
+    box-shadow: 0 0 3px rgba(0,0,0,0);
+}
+
+.row{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+button {
+    height: 30px;
+    width: 100px;
+    border: none;
+    background: -webkit-linear-gradient(to right, #15b100, #56ab2f);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #15b100, #56ab2f);
+    color: aliceblue;
+    font-size: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+button:hover {
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    height: 40px;
+    width: 110px;
+}
+}
