@@ -11,8 +11,8 @@ function Login(props){
         <form className="form1" />
         <input type='text' id='username' align="center" placeholder="Username" onChange={props.onChangeValue}/><br/>
         <input type='password' id='password' align="center" placeholder="Password" onChange={props.onChangeValue}/><br/>
-        <button type='submit' onClick={props.onSubmit}>Sign In</button>
-        <button type='submit' onClick={props.onForgot}>Forgot Password</button>
+        <button type='submit' id='signin' onClick={props.onSubmit}>Sign In</button>
+        <button type='submit' id='forgotpassword' onClick={props.onForgot}>Forgot Password</button>
       </div>
     </div>
   )

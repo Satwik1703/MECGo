@@ -1,20 +1,4 @@
 .ParentLoggedIn{
-div {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-	width: 550px;
-	height: 600px;
-	position: absolute;
-	top:0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-    margin: auto;
-    border: none;
-    border-radius: 5%;
-    box-shadow: 0 0 3px rgba(0,0,0,0.5);
-    background-color: white;
-    text-align: center;
-}
 
 #reason {
     height: 50px;
@@ -39,14 +23,6 @@ input {
 #t_d{
     margin-left: 20px;
     margin-bottom: 20px;
-}
-
-
-img{
-    height: 120px;
-    width: 120px;
-    margin: 0 auto;
-    margin-top: 15px;
 }
 
 button {

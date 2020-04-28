@@ -25,15 +25,19 @@ class ShowRequests extends React.Component{
   render(){
     return(
       <div className='SecurityShow'>
-        <h1>{this.props.info.name}</h1>
-        <h2>{this.props.info.username}</h2>
-        <h4>{this.props.info.reason}</h4>
-        <h3>From - {this.props.info.f_d}</h3>
-        <h3>To - {this.props.info.t_d}</h3>
-        <h3>Status - {this.props.info.status}</h3>
+        <div className='row'>
+          <h1>{this.props.info.name}</h1>
+          <div className='column'>
+            <h2>{this.props.info.username}</h2>
+            <h4>Reason - {this.props.info.reason}</h4>
+            <h3>From - {this.props.info.f_d}</h3>
+            <h3>To - {this.props.info.t_d}</h3>
+            <h3>Status - {this.props.info.status}</h3>
 
-        <button id='ok' type='submit' disabled={this.state.clicked}
-         onClick={this.onAccept} >Ok!</button>
+          <button id='ok' type='submit' disabled={this.state.clicked}
+           onClick={this.onAccept} >Ok!</button>
+           </div>
+         </div>
       </div>
     )
   }

@@ -1,5 +1,5 @@
 .WardenLoggedIn{
-button{
+#changepass{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     position: absolute;
     top: 8px;
@@ -15,7 +15,7 @@ button{
     background: linear-gradient(to right, #15b100, #56ab2f);
 }
 
-button:hover {
+#changepass:hover {
     margin: 0 auto;
     text-align: center;
     color: white;

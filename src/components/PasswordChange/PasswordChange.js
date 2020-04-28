@@ -39,7 +39,7 @@ class PasswordChange extends React.Component{
       <div className='PasswordChange' >
         <label>Password: </label>
         <input type='password' id='password' onChange={this.onChangeValue} /><br/>
-        <label>New Password: </label>
+        <label id='new_pass'>New Password: </label>
         <input type='password' id='new_password' onChange={this.onChangeValue} /><br/>
         <Link to='/'>
           <button type='submit' onClick={this.onSubmit}>Change!</button>

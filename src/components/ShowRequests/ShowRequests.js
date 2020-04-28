@@ -35,17 +35,23 @@ class ShowRequests extends React.Component{
   render(){
     return(
       <div className='ShowRequests'>
-        <h1>{this.props.info.name}</h1>
-        <h2>{this.props.info.username}</h2>
-        <h4>{this.props.info.reason}</h4>
-        <h3>From - {this.props.info.f_d}</h3>
-        <h3>To - {this.props.info.t_d}</h3>
-        <h3>Status - {this.state.status}</h3>
+      <h1>{this.props.info.name}</h1>
+        <div className='row'>
+          <div className='column'>
+            <h2>{this.props.info.username}</h2>
+            <h4>Reason - {this.props.info.reason}</h4>
+          </div>
+          <div className='columnl'>
+            <h3>From - {this.props.info.f_d}</h3>
+            <h3>To - {this.props.info.t_d}</h3>
+            <h3>Status - {this.state.status}</h3>
 
-        <button id='accept' type='submit' disabled={this.state.clicked}
-         onClick={this.onDecide} >Accept</button>
-        <button id='decline' type='submit' disabled={this.state.clicked}
-         onClick={this.onDecide} >Decline</button><br/>
+            <button id='accept' type='submit' disabled={this.state.clicked}
+             onClick={this.onDecide} >Accept</button>
+             <button id='decline' type='submit' disabled={this.state.clicked}
+              onClick={this.onDecide} >Decline</button><br/>
+           </div>
+         </div>
       </div>
     )
   }

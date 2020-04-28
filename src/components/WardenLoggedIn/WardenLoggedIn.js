@@ -8,7 +8,7 @@ function WardenLoggedIn(props){
       {
         props.data.map(info => (<ShowRequests info={info} />))
       }
-      <button type='submit' onClick={props.onChangePass}>Change Password</button><br/>
+      <button type='submit' id='changepass' onClick={props.onChangePass}>Change Password</button><br/>
     </div>
   )
 }
